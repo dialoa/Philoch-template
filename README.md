@@ -1,14 +1,14 @@
 
-# <%= title %>
+# Philoch Article Template
 
-Quarto template for Philosophie.ch articles. __In development__.
+Quarto template for [Philosophie.ch](https://philosophie.ch) articles. __In development__.
 
 ## Creating a New Article
 
 To create a new article using this format:
 
 ```bash
-quarto use template dialoa/<%= filesafename %>
+quarto use template dialoa/Philoch-template
 ```
 
 This will create a new directory with an example document that uses this format.
@@ -18,14 +18,14 @@ This will create a new directory with an example document that uses this format.
 To add this format to an existing document:
 
 ```bash
-quarto add dialoa/<%= filesafename %>
+quarto add dialoa/Philoch-template
 ```
 
 Then, add the format to your document options:
 
 ```yaml
 format:
-  <%= filesafename %>-pdf: default
+  philoch-pdf: default
 ```    
 
 ## Options
