@@ -1,0 +1,42 @@
+---
+title: Philosohie.ch Article Template
+format:
+  philoch-pdf:
+    keep-tex: true  
+  philoch-html: default
+author:
+  - name: Sarah Malloc
+    affiliations:
+      - name: An Organization
+        department: The Department
+        address: 1 Main St
+        city: Boston
+        country: USA
+        postal-code: 02210-1022
+      - A second affilication
+    orcid: 0000-0000-0000-0000
+    email: sm@example.org
+    url: https://example.org/
+  - name: Eliza Dealloc
+    affiliations:
+      - Another Affiliation
+abstract: |
+  This document is a template demonstrating the Philoch format.
+keywords: [template, demo]
+bibliography: bibliography.bib  
+lang: en-GB
+---
+
+## Introduction {#sec-intro}
+
+This document demonstrates the appearance of the Philosophie.ch article template.
+
+## Styles
+
+URL <https://philosophie.ch>
+
+
+
+
+
+

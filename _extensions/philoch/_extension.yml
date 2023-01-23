@@ -1,0 +1,30 @@
+title: Philoch
+author: Julien Dutant
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    common:
+      toc: true
+      toc-depth: 1
+      number-sections: true
+      secnumdepth: 2
+      filters:
+        - philoch.lua
+    pdf:
+      include-in-header: header.tex
+      classoption: twocolumn
+      indent: true
+      papersize: A4
+      fontenc: true
+      fontfamily: roboto
+      fontfamilyoptions: sfdefault
+      fontsize: 12pt
+      linkcolor: rgb(0,0,66)
+      urlstyle: same
+    html:
+      mainfont: [Roboto, sans-serif]
+      fontsize: 18px
+      linkcolor: rgb(0,0,66)
+      css: styles.css
+
